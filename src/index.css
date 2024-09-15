@@ -1,13 +1,70 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+/* .containerfooter{
+  margin-top: 40rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+} */
+
+/* .content{
+  margin: 2rem;
+}
+
+.advert{
+  margin-left: 18rem;
+}
+.middle{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-left: 4rem;
+}
+
+.row{
+  margin: 2rem;
+  display: flex;
+
+}
+
+.mid{
+  padding: 2rem;
+} */
+
+/* home page css */
+
+/* banner */
+
+
+.banner{
+  position: relative;
+}
+
+
+.banner .card{
+  width: 30%;
+  position: absolute;
+  left: 3rem;
+  bottom: -2rem;
+  padding: 1rem;
+}
+.banner a{
+  text-decoration: none;
+  color: #000;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.banner .card button{
+  width: 4rem;
+  font-size: 0.5rem;
+  font-weight: bold;
+
 }
